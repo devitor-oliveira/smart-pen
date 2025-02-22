@@ -19,7 +19,9 @@ const Hero = ({ arg }) => {
       <HeroContent>
         <HeroTitle>Bem-vindo à Smart Copy</HeroTitle>
         <HeroSubtitle>A caneta inteligente que resolve tudo!</HeroSubtitle>
-        <HeroButton onClick={() => scrollToSection(arg)}>Compre Já</HeroButton>
+        <HeroButton onClick={() => scrollToSection(arg)}>
+          Compre Agora
+        </HeroButton>
       </HeroContent>
     </HeroSection>
   );

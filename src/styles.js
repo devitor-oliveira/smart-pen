@@ -34,7 +34,7 @@ export const Logo = styled.div`
 export const Nav = styled.nav`
   display: grid;
   grid-auto-flow: column;
-  gap: 1.5rem;
+  gap: 2rem;
   flex: 1;
   justify-content: center;
 `;
@@ -45,7 +45,22 @@ export const NavItem = styled.a`
   color: ${({ theme }) => theme.colors.textPrimary};
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: color 0.2s;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary};
+  }
+`;
+
+export const NavBuy = styled.a`
+  cursor: pointer;
+  font-size: 1rem;
+  color: ${({ theme }) => theme.colors.primary};
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 500;
   transition: color 0.2s;
 

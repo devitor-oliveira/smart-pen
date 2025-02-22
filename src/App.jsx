@@ -3,7 +3,7 @@ import Footer from './components/Footer/footer';
 import Cripto from './pages/cripto/cripto';
 import Hero from './pages/Hero/hero';
 import { Sales } from './pages/Sales/sales';
-import { HeaderContainer, Logo, Nav, NavItem } from './styles';
+import { HeaderContainer, Nav, NavBuy, NavItem } from './styles';
 
 function App() {
   // Referências para as seções
@@ -22,11 +22,11 @@ function App() {
   return (
     <>
       <HeaderContainer>
-        <Logo />
+        {/* <Logo /> */}
         <Nav>
-          <NavItem onClick={() => scrollToSection(heroRef)}>Início</NavItem>
-          <NavItem onClick={() => scrollToSection(salesRef)}>Clientes</NavItem>
-          <NavItem onClick={() => scrollToSection(criptoRef)}>Compre</NavItem>
+          <NavItem onClick={() => scrollToSection(heroRef)}>Home</NavItem>
+          <NavItem onClick={() => scrollToSection(salesRef)}>Relatos</NavItem>
+          <NavBuy onClick={() => scrollToSection(criptoRef)}>Encomende</NavBuy>
         </Nav>
       </HeaderContainer>
 
