@@ -29,7 +29,7 @@ const Cripto = () => {
       .then(
         () => {
           alert(
-            'Email enviado com sucesso! Cheque sua caixa de entrada ou spam.',
+            'Encomenda Garantida! Cheque sua caixa de entrada ou spam para confirmação.',
           );
           console.log('SUCCESS!');
         },
