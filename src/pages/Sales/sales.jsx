@@ -26,8 +26,8 @@ export const Sales = () => {
           <CardContent>
             <CardTitle>Mariana Oliveira</CardTitle>
             <CardDescription>
-              &quot;Ótimo para pessoas com deficiência visual, a leitura por
-              alto-falante é incrível!&quot;
+              &quot;É ótima para deficientes visuais! Agora posso assinar
+              contratos duvidosos e não posso alegar que fui enganada.&quot;
             </CardDescription>
           </CardContent>
         </Card>
@@ -46,10 +46,11 @@ export const Sales = () => {
         <Card>
           <ClientImage src="/images/velha.png" alt="Cliente 3" />
           <CardContent>
-            <CardTitle>Ana Souza</CardTitle>
+            <CardTitle>Ana da Marmita</CardTitle>
             <CardDescription>
-              &quot;Essa caneta me ajudou a passar todos os meus bens para o meu
-              cuidador, INCRÍVEL&quot;
+              &quot;A SmatCopy me ajudou a passar todos os meus bens para o meu
+              cuidador, com a criptografia não posso recorrer.
+              MARAVILHOSO!&quot;
             </CardDescription>
           </CardContent>
         </Card>
